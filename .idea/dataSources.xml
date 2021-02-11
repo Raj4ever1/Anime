@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="db1" uuid="acdf73ef-2a05-4d02-9475-b13df4ff7cf8">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\rjraj\PycharmProjects\Anime\db1.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Anime_Downloader" uuid="f3af2c81-389f-4c70-8584-8b6a5a3ecf46">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\rjraj\PycharmProjects\Anime\Anime_Downloader.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
