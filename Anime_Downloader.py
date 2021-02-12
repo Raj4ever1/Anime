@@ -167,7 +167,7 @@ def totalep_update():
 
 
 def getting_anime_title():
-    anime = animelistmain()#list(map(lambda x: x[0], con.execute('select animename from anime where processing="y";').fetchall()))
+    anime = list(map(lambda x: x[0], con.execute('select animename from anime where processing="y";').fetchall()))
     for animename in anime:
         remove_empty_folders()
         if not stroage_check_2():
@@ -874,7 +874,7 @@ def main1():
             transfer()
             closedriver()
             remove_empty_folders()
-            if datetime.datetime.now().minute == 0 or True:
+            if datetime.datetime.now().minute == 0 :
                 totalep_update()
                 anime = animelistmain()
                 closedriver()
